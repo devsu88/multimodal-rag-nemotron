@@ -1,3 +1,15 @@
+---
+title: Multimodal Rag Nemotron
+emoji: ⚡
+colorFrom: green
+colorTo: gray
+sdk: gradio
+sdk_version: 6.20.0
+python_version: '3.11'
+app_file: app.py
+pinned: false
+---
+
 # 👁️📑 Multimodal RAG with Nemotron & LangGraph
 
 This repository contains a full-fledged **Multimodal Retrieval-Augmented Generation (RAG)** application built with state-of-the-art vision-language models, vector databases, and semantic caching. 
