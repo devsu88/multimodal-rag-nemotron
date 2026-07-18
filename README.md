@@ -65,7 +65,16 @@ REDIS_URL="redis://your_redis_host:port"
 REDIS_DBNAME="your_redis_index_name"
 ```
 
-### 4. Run the Application
+### 4. Populate Pinecone (One-time setup)
+
+Before running the application for the first time, you need to embed and upload the dataset to your Pinecone index. Ensure you have a script for this (e.g. `populate_pinecone.py`) and run it:
+
+```bash
+python populate_pinecone.py
+```
+*(Note: Make sure your Pinecone index is created with 2048 dimensions and the `cosine` metric before running the population script).*
+
+### 5. Run the Application
 
 Start the Gradio server by running:
 
@@ -85,8 +94,4 @@ The server will automatically download the dataset and the HuggingFace models up
 - `utils.py`: Helper functions for LLM generation and HTML formatting.
 - `app.py`: The presentation layer; contains the Gradio UI definitions and the main entry point.
 
----
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/devsu88/multimodal-rag-nemotron/issues).
