@@ -18,6 +18,13 @@ The application allows users to search for recipes (both through text and image 
 
 ---
 
+## 🚀 Live Demo
+
+You can try the application directly on Hugging Face Spaces:  
+👉 **[Try the Live Demo](https://huggingface.co/spaces/devsu/multimodal-rag-nemotron)**
+
+---
+
 ## ✨ Features
 
 - **Multimodal Retrieval**: Search recipes using either text queries or by uploading an image.
