@@ -67,10 +67,10 @@ REDIS_DBNAME="your_redis_index_name"
 
 ### 4. Populate Pinecone (One-time setup)
 
-Before running the application for the first time, you need to embed and upload the dataset to your Pinecone index. Ensure you have a script for this (e.g. `populate_pinecone.py`) and run it:
+Before running the application for the first time, you need to embed and upload the dataset to your Pinecone index running:
 
 ```bash
-python populate_pinecone.py
+python ingest_to_pinecone.py
 ```
 *(Note: Make sure your Pinecone index is created with 2048 dimensions and the `cosine` metric before running the population script).*
 
