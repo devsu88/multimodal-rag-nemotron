@@ -93,5 +93,4 @@ The server will automatically download the dataset and the HuggingFace models up
 - `graph.py`: The LangGraph state definitions, nodes, and conditional edges that orchestrate the RAG flow.
 - `utils.py`: Helper functions for LLM generation and HTML formatting.
 - `app.py`: The presentation layer; contains the Gradio UI definitions and the main entry point.
-
-
+- `ingest_to_pinecone.py`: The script to embed and upload the dataset to Pinecone.
