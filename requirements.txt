@@ -1,0 +1,17 @@
+torch==2.9.1
+torchvision==0.24.1
+transformers==4.57.3
+gradio==6.2.0
+datasets==4.4.2
+safetensors==0.7.0
+Pillow==12.0.0
+accelerate==1.12.0
+qwen-vl-utils==0.0.14
+spaces
+pinecone
+redisvl
+sentence-transformers
+langgraph
+langchain-core
+langsmith
+python-dotenv
